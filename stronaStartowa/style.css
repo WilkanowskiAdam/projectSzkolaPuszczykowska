@@ -11,38 +11,77 @@
 }
 
 
-
 body {
     height: 100vh;
     position: relative;
-    background-image: url('library.jpg');
+    background-image: url('umbrellas.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 70%);
+    background-color: rgba(255, 255, 255, 100%);
     font-weight: bold;
 }
 
-.header {
+.white {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 30%);
+}
+
+
+/* .header {
     position: absolute;
     width: 100vw;
     height: 10vh;
     background-color: rgba(255, 255, 255, 70%);
-}
+} */
 
 .title {
-    color: black;
-    padding: 10px;
-    text-align: left;
-    font-size: 24px;
+    position: absolute;
+    color: rgba(255, 255, 255, 100%);
+    top: 10%;
+    left: 45%;
+    /* padding: 10px; */
+    /* text-align: left; */
+    font-size: 60px;
 }
 
-.content {
+.words-content {
+    font-size: 40px;
+    color: rgba(255, 255, 255, 100%);
     position: absolute;
     top: 30%;
-    left: 10%;
+    left: 13%;
     height: 60px;
+}
+
+.words {
+    list-style: none;
+}
+
+.words li {
+    float: left;
+    /* margin-right: 150px; */
+    padding-left: 75px;
+    padding-right: 75px;
+    /* border-left: 6px solid rgba(255, 255, 255, 100%); */
+
+}
+
+.second-word {
+    border-left: 6px solid rgba(255, 255, 255, 100%)
+}
+
+.third-word {
+    border-left: 6px solid rgba(255, 255, 255, 100%)
+}
+
+.buttons-content {
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    height: 20px;
 }
 
 .buttons {
@@ -50,15 +89,16 @@ body {
 }
 
 .buttons li {
-    background-color: rgba(255, 255, 255, 80%);
+    background-color: rgba(255, 255, 255, 50%);
     float: left;
     margin-right: 20px;
+    border: 6px solid white;
 }
 
 a {
-    color: black;
-    font-size: 24px;
-    padding: 20px;
+    color: rgba(255, 255, 255, 100%);
+    font-size: 30px;
+    padding: 15px;
     width: 40vw;
     line-height: 60px;
     text-decoration: none;
@@ -67,6 +107,6 @@ a {
 
 }
 
-li:hover {
-    border: 6px solid black;
-}
+/* .buttons li:hover {
+    border: 6px solid white;
+} */
