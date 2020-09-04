@@ -6,43 +6,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        function dropdown(a) {
+            document.getElementById(a).classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+
+        // window.onclick = function (event) {
+        //     if (!event.target.matches('.dropbtn1')) {
+        //         var dropdowns = document.getElementsByClassName("dropdown-content");
+        //         var i;
+        //         for (i = 0; i < dropdowns.length; i++) {
+        //             var openDropdown = dropdowns[i];
+        //             if (openDropdown.classList.contains('show')) {
+        //                 openDropdown.classList.remove('show');
+        //             }
+        //         }
+        //     }
+        // }
+        // window.onclick = function (event) {
+        //     if (!event.target.matches('.dropbtn2')) {
+        //         var dropdowns = document.getElementsByClassName("dropdown-content");
+        //         var i;
+        //         for (i = 0; i < dropdowns.length; i++) {
+        //             var openDropdown = dropdowns[i];
+        //             if (openDropdown.classList.contains('show')) {
+        //                 openDropdown.classList.remove('show');
+        //             }
+        //         }
+        //     }
+        // }
+        // window.onclick = function (event) {
+        //     if (!event.target.matches('.dropbtn3')) {
+        //         var dropdowns = document.getElementsByClassName("dropdown-content");
+        //         var i;
+        //         for (i = 0; i < dropdowns.length; i++) {
+        //             var openDropdown = dropdowns[i];
+        //             if (openDropdown.classList.contains('show')) {
+        //                 openDropdown.classList.remove('show');
+        //             }
+        //         }
+        //     }
+        // }
+        // window.onclick = function (event) {
+        //     if (!event.target.matches('.dropbtn4')) {
+        //         var dropdowns = document.getElementsByClassName("dropdown-content");
+        //         var i;
+        //         for (i = 0; i < dropdowns.length; i++) {
+        //             var openDropdown = dropdowns[i];
+        //             if (openDropdown.classList.contains('show')) {
+        //                 openDropdown.classList.remove('show');
+        //             }
+        //         }
+        //     }
+        // }
+    </script>
 </head>
 
 <body>
     <header>
-        <p> Społeczna Szkoła Podstawowa<br>z
-            Oddziałami Integracyjnymi AMIGO</p>
+        <div class="banner">
+            <!-- <img src="../umbrellas.jpg" alt="umbrelki"> -->
+        </div>
     </header>
     <nav>
         <ul class="clearfix">
             <li><a href="">Start</a></li>
             <li class="aboutSchoolDropdown">
-                <button onclick="myFunction()" class="dropbtn1">O Szkole</button>
-                <div id="myDropdown" class="aboutSchool-dropdown-content">
+                <button onclick="dropdown('myDropdown1')" class=" dropbtn1">O Szkole</button>
+                <div id="myDropdown1" class="dropdown-content">
                     <a href="#home">Home</a>
                     <a href="#about">About</a>
                     <a href="#contact">Contact</a>
                 </div>
             </li>
             <li class="forParentsDropdown">
-                <button onclick="myFunction()" class="dropbtn2">Dla rodziców</button>
-                <div id="myDropdown" class="forParents-dropdown-content">
+                <button onclick="dropdown('myDropdown2')" class="dropbtn2">Dla Rodziców</button>
+                <div id="myDropdown2" class="dropdown-content">
                     <a href="#home">Home</a>
                     <a href="#about">About</a>
                     <a href="#contact">Contact</a>
                 </div>
             </li>
             <li class="forStudentsDropdown">
-                <button onclick="myFunction()" class="dropbtn3">Dla Uczniów</button>
-                <div id="myDropdown" class="forStudents-dropdown-content">
+                <button onclick="dropdown('myDropdown3')" class="dropbtn3">Dla Uczniów</button>
+                <div id="myDropdown3" class="dropdown-content">
                     <a href="#home">Home</a>
                     <a href="#about">About</a>
                     <a href="#contact">Contact</a>
                 </div>
             </li>
             <li class="recrutationDropdown">
-                <button onclick="myFunction()" class="dropbtn4">Rekrutacja</button>
-                <div id="myDropdown" class="recrutation-dropdown-content">
+                <button onclick="dropdown('myDropdown4')" class="dropbtn4">Rekrutacja</button>
+                <div id="myDropdown4" class="dropdown-content">
                     <a href="#home">Home</a>
                     <a href="#about">About</a>
                     <a href="#contact">Contact</a>
@@ -52,16 +109,26 @@
         </ul>
     </nav>
 </body>
-<div class="banner">
-    <img src="graduation.jpg" alt="wakacje">
-    <p>Wesołych i wspaniałych wakacji. <br>Życzy AMIGO</p>
+<div class="introduction">
+    <h1>
+        <p> Uwaga !</p>
+    </h1>
+    <div>
+        <p>Rozpoczęcie roku szkolnego 2020/2021<br> dniu 1 września odbędzie się wg. poniższego grafiku:</p>
+
+
+        <p>SP „Amigo” – 9.00.
+            <br> Klasa VII – sala 17
+            <br> Klasa VIII – sala 15
+            <br> Klasy I – VIII – spełniający obowiązek szkolny poza szkołą – nauczanie domowe godz. 9.00</p>
+        <p> LO „Amigo”:
+            <br>Klasa II LO – 3 letnie – sala 119 – godz. 10.00.
+            <br>Klasa II LO – 4 letnie – sala 115 – godz. 10.00.
+            <br> Klasa I LO – sala 11 – godz. 10.30.
+            <br> Klasa III LO – sala 114 – godz. 10.30 (wych. Monika Filinowicz)
+            <br> Klasa III LO – sala 121 – godz. 10.30 (wych. Małgorzata <br>Królewicz-Głód)
+            <br> Klasy I – III – spełniający obowiązek szkolny poza szkołą – nauczanie domowe godz. 9.00</p>
+    </div>
 </div>
-<div class="introduction">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium minus molestias explicabo
-    odio necessitatibus saepe minima aliquid debitis perspiciatis iusto enim placeat incidunt at fugiat soluta nostrum
-    ad repellendus consequatur labore cumque sint, consequuntur officia. Exercitationem temporibus ratione consequatur
-    aliquid iste voluptas, incidunt quis, quam repellendus rerum natus dolor quod doloremque esse libero commodi veniam
-    laudantium totam rem cumque unde. Illum possimus exercitationem magnam rem quos aperiam adipisci vel quia aliquid
-    ratione beatae expedita rerum, neque dicta minima magni consectetur corrupti voluptatibus in assumenda eaque
-    voluptate ea reiciendis quasi. Nobis tempore, minus maxime veniam aut facilis alias omnis quisquam aspernatur.</div>
 
 </html>
