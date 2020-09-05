@@ -1,23 +1,20 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 html {
     font-family: 'Source Sans Pro', sans-serif;
     height: 150%;
-    max-width: 1200px;
+    max-width: 1400px;
 }
 
 .clearfix::after {
     content: "";
     display: block;
     clear: both;
-}
-
-body {
-    max-width: 1280px;
 }
 
 
@@ -27,25 +24,24 @@ header {
     color: black;
     font-size: 12px;
     border-bottom: 2px solid black;
-    text-align: left;
 }
 
 .banner {
     height: 29vh;
-    width: 1800px;
     position: relative;
     background-image: url('../umbrellas.jpg');
     background-attachment: fixed;
     background-position: bottom;
 }
 
+/* 
 .banner img {
     position: absolute;
     top: 0;
     height: 100%;
     width: 100%;
     image-resolution: 1000dpi;
-}
+} */
 
 nav {
     background-color: white;
