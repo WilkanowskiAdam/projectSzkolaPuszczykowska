@@ -121,8 +121,10 @@ button:focus {
 }
 
 .dropdown-content a {
+    line-height: 20px;
+    font-size: 20px;
     color: black;
-    padding: 12px 16px;
+    padding: 6px 10px;
     text-decoration: none;
     display: block;
 }
@@ -175,9 +177,11 @@ nav ul li:nth-child(4) a i {
 }
 
 .introduction {
+    padding: 20px;
     margin: auto;
     position: center;
-    font-size: 24px;
+    font-size: 20px;
     margin: 50px 70px;
     text-align: center;
+    border: 6px solid rgba(122, 27, 27, 0.7);
 }
