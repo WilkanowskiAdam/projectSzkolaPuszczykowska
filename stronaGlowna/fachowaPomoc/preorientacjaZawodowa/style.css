@@ -7,7 +7,6 @@
 
 html {
     font-family: 'Source Sans Pro', sans-serif;
-    height: 150%;
     max-width: 1400px;
 }
 
@@ -32,14 +31,6 @@ header {
     background-color: rgb(203, 213, 231);
 }
 
-/* 
-.banner img {
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    image-resolution: 1000dpi;
-} */
 
 nav {
     background-color: white;
@@ -132,13 +123,6 @@ button:focus {
     display: block;
 }
 
-/* nav ul li:nth-last-child(1) a {
-    color: black;
-    margin-left: 150px;
-    border: 2px solid black;
-    background-color: #bbbbbb;
-
-} */
 
 nav ul li a i {
     margin-right: 10px;
@@ -152,84 +136,38 @@ nav ul li:nth-child(4) a i {
     vertical-align: -1px;
 }
 
-/* .banner {
-    height: 20vh;
-    position: relative;
-    margin: 20px 50px 60px 50px;
-} */
-
-
-.banner p {
-    position: absolute;
-    top: 40%;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.7);
-    font-size: 24px;
-    text-align: center;
-    letter-spacing: 1px;
-    width: 100%;
-
+.navigation-text {
+    padding-left: 50px;
 }
 
-.introduction {
-    padding: 20px;
-    margin: auto;
-    position: center;
+.information {
+    margin: 50px;
+    padding: 0px 20px;
+}
+
+.title {
+    padding-bottom: 30px;
+    font-size: 35px;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+.firstList,
+.secondList {
+    padding-bottom: 20px;
     font-size: 20px;
-    margin: 50px 70px;
-    text-align: center;
-    border: 6px solid rgba(248, 29, 29, 0.7);
-}
-
-.statement {
-    font-size: 30px;
-    margin: auto;
-    position: center;
-    text-align: center;
 
 }
 
-.news p {
-    max-width: 1200px;
-    margin-bottom: 2px;
+.firstList h1,
+.secondList h1 {
+    font-size: 25px;
+    padding-bottom: 10px;
 }
 
-.news ul li p {
-    text-align: right;
-    padding-right: 10px;
-}
-
-.box {
-    overflow: hidden;
-    position: relative;
-    display: block;
-    max-height: 200px;
-    max-width: 1200px;
-    list-style: none;
-    margin-bottom: 50px;
-    border: 2px solid rgb(169, 193, 238);
-}
-
-.text {
-    float: left;
-}
-
-.text button {
-    position: absolute;
-    right: 30%;
-    bottom: 0px;
-
-}
-
-.picture {
-    max-width: 30%;
-    max-height: 100%;
-    float: right;
-    border-left: 2px solid rgb(169, 193, 238);
-}
-
-img {
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
+.footer {
+    background-color: rgb(203, 213, 231);
+    padding-left: 50px;
 }
