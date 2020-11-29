@@ -1,5 +1,5 @@
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
@@ -152,84 +152,31 @@ nav ul li:nth-child(4) a i {
     vertical-align: -1px;
 }
 
-/* .banner {
-    height: 20vh;
-    position: relative;
-    margin: 20px 50px 60px 50px;
-} */
+.main {
+    margin-bottom: 10%;
+    margin: 0 10%;
+}
 
-
-.banner p {
-    position: absolute;
-    top: 40%;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.7);
-    font-size: 24px;
-    text-align: center;
-    letter-spacing: 1px;
+.main ul {
+    text-align: left;
     width: 100%;
-
 }
 
-.introduction {
-    padding: 20px;
-    margin: auto;
-    position: center;
-    font-size: 20px;
-    margin: 50px 70px;
-    text-align: center;
-    border: 6px solid rgba(248, 29, 29, 0.7);
-}
-
-.statement {
-    font-size: 30px;
-    margin: auto;
-    position: center;
-    text-align: center;
-
-}
-
-.news p {
-    max-width: 1200px;
-    margin-bottom: 2px;
-}
-
-.news ul li p {
-    text-align: right;
-    padding-right: 10px;
-}
-
-.box {
-    overflow: hidden;
-    position: relative;
+.main li {
+    text-align: left;
     display: block;
-    max-height: 200px;
-    max-width: 1200px;
-    list-style: none;
-    margin-bottom: 50px;
-    border: 2px solid rgb(169, 193, 238);
+    margin: 20px 20px;
 }
 
-.text {
+.main div {
+    width: 30%;
     float: left;
+    text-align: left;
+    margin: 0 60px;
 }
 
-.text button {
-    position: absolute;
-    right: 30%;
-    bottom: 0px;
 
-}
-
-.picture {
-    max-width: 30%;
-    max-height: 100%;
-    float: right;
-    border-left: 2px solid rgb(169, 193, 238);
-}
-
-img {
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
+li div h1 {
+    font-size: 18px;
+    margin-bottom: 5px;
 }
